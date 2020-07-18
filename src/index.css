@@ -1,1 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.person {
+  background: #eeeeee;
+  width: 17rem;
+  padding: 1rem;
+  margin: 2rem auto;
+  border-radius: 0.3rem;
+  text-align: center;
+  transition: all 0.6s linear;
+}
+.person:hover {
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
 
