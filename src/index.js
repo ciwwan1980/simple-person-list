@@ -18,7 +18,7 @@ const PersonList = () => {
 
   return (
     <section  className="person-list" >
-    <Person img="56" name="david" job="designer" />
+    <Person img="76" name="david" job="designer" />
     <Person img="22" name="bob" job="designer">
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores,
@@ -26,7 +26,9 @@ const PersonList = () => {
         </p>
       </Person>
     <Person img="11" name="bob" job="artist" />
-
+    <Person img="36" name="john" job="designer" />
+    <Person img="33" name="lio" job="designer" />
+    <Person img="55" name="dan" job="developer" />
     </section>
   );
 };
